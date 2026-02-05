@@ -37,20 +37,21 @@
 #p8-s2 {
   text-decoration: underline;
 }
-#p9-s1 {
+#p9 {
     font-size: 36px; 
     
 }
-#p10-s1 {
+#p10{
     font-size: 12px;
+    font-weight: bold;
     text-align: center;
 }
-#p10-s2 {
+#p11{
     font-size: 48px;
     text-align: center;
-
 }
-#p10-s3 {
+#p12{
     font-size: 24px;
+    font-style: italic;
     text-align: center;
 }
