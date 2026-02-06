@@ -1,0 +1,34 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: rgb(237, 255, 182);
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    border: 10px outset rgb(34, 1, 1);
+    
+}
+.black {
+    background-color: #15ff00;
+    border-color: #003376;
+}
+.gold {
+    background-color: #000000;
+    border-color: #b88100;
+}
+.green {
+    background-color: aqua;
+        border-color: #30034e;
+
+}
+.red {
+    background-color: white;
+        border-color: #054405;
+
+}
+
+
