@@ -1,0 +1,32 @@
+.post-it {
+    background-color: yellow;
+    width: 200px;
+    min-height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+.blue {
+    background-color: skyblue;
+}
+.grey {
+    background-color: grey;
+    color: yellow;
+}
+.purple {
+    background-color: #b13737;
+}
+.img {
+    width: 200%;
+}
+.pink {
+    background-color: pink;
+}
+.yellow {
+    background-color: #8da7ff;
+}
+.brown {
+    background-color: #5c450d;
+    color: white;
+}
