@@ -6,6 +6,7 @@
     margin: 24px;
     vertical-align: top;
     display: inline-block;
+    position: relative;
 }
 .blue {
     background-color: skyblue;
@@ -27,6 +28,14 @@
     background-color: #8da7ff;
 }
 .brown {
-    background-color: #5c450d;
+    background-color: #6459ac;
     color: white;
+}
+.pin {
+    width: 10px;
+    object-fit: cover;
+    left: 50%;
+    top: 10px;
+    position: absolute;
+    transform: translateX(-50%);
 }
