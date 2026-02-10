@@ -1,0 +1,47 @@
+#p1 {
+    background-color: aqua;
+}
+#p1-s1 {
+    color: #6cdb2b;
+    background-color: azure;
+}
+#p1-s2 {
+    color: #ff4800;
+    background-color: black;
+}
+#p1-s3 {
+    color: #ff7640;
+    background-color: #decdcd;
+}
+/* paragraph 2 */
+#p2 {
+    background-color: #25ff1a;
+}
+#p2-s1 {
+    color: #c4b9b4;
+    background-color: #000000;
+}
+#p2-s2 {
+    color: #ead3ff;
+    background-color: #f70202;
+}
+#p2-s3 {
+    color: #ff7640;
+    background-color: #fff9f9;
+}
+/* paragraph 3 */
+#p3 {
+    background-color: #ff7300;
+}
+#p3-s1 {
+    color: #837f36;
+    background-color: #000000;
+}
+#p3-s2 {
+    color: #fef5f2;
+    background-color: #005eff;
+}
+#p3-s3 {
+    color: #fc4242;
+    background-color: #00058e;
+}
