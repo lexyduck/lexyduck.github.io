@@ -14,9 +14,19 @@ div p {
     color: #fff;
     border-radius: 15px;
     box-shadow: 2px 2px 5px #1115;
+    border: 2px solid #da800a;
+   transition: background-color 0.5s, color 0.5s;
 }
 .btn:hover {
     background-color: transparent;
-    border: 2px solid #da800a;
     color: #da800a;
+}
+.btn.alt {
+    background-color: transparent;
+    border-color: #0a9cda;
+    color: #0a9cda;
+}
+.btn.alt:hover {
+    background-color: #0a9cda;
+    color: #fff;
 }
