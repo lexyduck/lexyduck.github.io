@@ -1,0 +1,55 @@
+#morning {
+    border: 2px solid #d39700;
+    background-color: #eeb058;
+    margin: 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#morning ul {
+    background-color: #f2d3a5;
+    border-radius: 10px;
+}
+#afternoon {
+    border: 2px solid #ff00e1;
+    background-color: #f692e9;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#afternoon ul {
+    background-color: #d36bff;
+    border-radius: 10px;
+}
+
+#evening {
+    border: 2px solid #82d9ff;
+    background-color: #5e94ff;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#evening ul {
+    background-color: #92aaff;
+    border-radius: 10px;
+}
+.completed {
+    text-decoration: line-through;
+}
+.important {
+    font-weight: bolder;
+    color: red;
+}
+.completed.important {
+    background-color: #44ffff;
+    padding: 4px;
+}
+.botton {
+    text-decoration: none;
+    background-color: #be0ada;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 15px;
+    border: black;
+    margin: 10px;
+}
