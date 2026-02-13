@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 900px;
+   margin-left: auto;
+    margin-right: auto; 
+   /* 
+   short way
+    margin: 0px auto;
+    */
+}
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 48px 0px;
+}
+
+/*  excerises and projects
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+} 
+*/
