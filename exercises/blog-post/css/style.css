@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+.dark-container {
+    background-color: lavender;
+    color: black;
+}
+.light-container {
+    background-color: blanchedalmond;
+}
+.in-container {
+    background-color: black;
+    align-content: center;
+}
