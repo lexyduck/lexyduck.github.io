@@ -10,15 +10,16 @@ h2,
 h4 {
     font-family: Josefin Sans, sans-serif;
 }
-.single-column {
+.dark-container {
     width: 80%;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-}
-.dark-container {
     background-color: lavender;
     color: black;
+}
+.dark-container {
+    
 }
 .light-container {
     background-color: blanchedalmond;
