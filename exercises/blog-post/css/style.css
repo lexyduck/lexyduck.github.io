@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Bebas Neue, sans-serif;
+}
+h2,
+h4 {
+    font-family: Josefin Sans, sans-serif;
 }
 .single-column {
     width: 80%;
