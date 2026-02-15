@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+}
+h1 {
+    font-family:  Bebas Neue, sans-serif;
+}
+.part {
+    width: 80%;
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: lightcoral;
+}
+img {
+    width: 50%;
+    object-fit: cover;
+    
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+} 
+.one {
+    background-color: lightcoral;
+}
+
+.botton {
+    background-color: red;
+    padding: 5px 5px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 2px solid #fff9f9;
+    transition: background-color 0.5s, color 0.5s;
+}
+.botton:hover {
+    background-color: #000000;
+    color: #fff;
+}
+/* part 2 */
+.two {
+    background-color: lightsalmon;
+}
+
+.botton-two {
+    background-color: orange;
+    padding: 5px 5px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 2px solid #fff9f9;
+    transition: background-color 0.5s, color 0.5s;
+}
+.botton-two:hover {
+    background-color: #000000;
+    color: #fff;
+}
+/* part 3 */
+.three {
+    background-color: lightskyblue;
+}
+
+.botton-three {
+    background-color: rgb(56, 59, 141);
+    padding: 5px 5px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 2px solid #fff9f9;
+    transition: background-color 0.5s, color 0.5s;
+}
+.botton-three:hover {
+    background-color: #000000;
+    color: #fff;
+}
