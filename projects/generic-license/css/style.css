@@ -17,10 +17,12 @@
     display: inline-block;
     width: 65%;
 }
-#ride-side {
-    width: 100%;
+#right-side {
     display: inline-block; 
     width: 34%;
+}
+#right-side img {
+    width: 100%;
 }
 #id-expiration {
     display: inline-block;
