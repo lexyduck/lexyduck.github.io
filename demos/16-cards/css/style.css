@@ -11,8 +11,14 @@ body {
     width: 90%;
     max-width: 1200px;
 }
+
+h2 {
+    text-align: center;
+}
 .card-container {
     display: flex;
+    gap: 25px;
+    justify-content: center;
 }
 .card {
     border: 5px solid turquoise;
