@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+} 
+.single-column {
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.part-one {
+    flex: 1;
+}
+.part-one p {
+    font-weight: 300;
+    line-height: 1.75em;
+}
+.part-one h6 {
+    margin: 10px  10px;
+    margin-right: 10px;
+}
+.image {
+    flex: 2;
+    height: 100%;
+}
