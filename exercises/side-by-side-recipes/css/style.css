@@ -14,18 +14,21 @@ a {
     text-decoration: none;
     display: inline-block;
 } 
+
+.btn {
+    color: white;
+    background-color: black;
+    border: 40px solid 10px;
+    padding: 10px;
+}
 .single-column {
     margin: 0px auto;
     width: 90%;
     max-width: 1200px;
-    display: flex;
     gap: 50px;
     margin-top: 80px;
     margin-bottom: 80px;
-}
-
-.part-one {
-    flex: 1;
+    display: flex;
 }
 .part-one p {
     font-weight: 300;
@@ -35,7 +38,33 @@ a {
     margin: 10px  10px;
     margin-right: 10px;
 }
-.image {
-    flex: 2;
+.single-column img {
+    height: 200px;
+}
+.image img {
     height: 100%;
+}
+
+.head {
+   margin: 0px auto;
+    width: 90%;
+    max-width: 1200px;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.korean img {
+    height: 200px;
+}
+.chicken img {
+    height: 200px;
+}
+.spices img {
+    height: 200px;
 }
