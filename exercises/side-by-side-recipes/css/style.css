@@ -33,14 +33,13 @@ a {
     border-bottom: 1px solid black;
     padding: 10px;
 }
+.one {
+    font-weight: bolder;
+    color: black;
+}
 .part-one p {
     font-weight: 300;
     line-height: 1.75em;
-}
-.part-one h6 {
-    gap: 100px;
-    margin: 25px 0 20px;
-    display: flex;
 }
 .single-column img {
     height: 200px;
