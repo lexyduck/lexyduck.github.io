@@ -29,20 +29,26 @@ a {
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
 .part-one p {
     font-weight: 300;
     line-height: 1.75em;
 }
 .part-one h6 {
-    margin: 10px  10px;
-    margin-right: 10px;
+    gap: 100px;
+    margin: 25px 0 20px;
+    display: flex;
 }
 .single-column img {
     height: 200px;
 }
 .image img {
     height: 100%;
+    width: 100%;
+     object-fit: cover;
 }
 
 .head {
@@ -53,18 +59,26 @@ a {
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
+    background-color: beige;
+    padding:  50px;
 }
 h2 {
-    text-align: center;
+    text-align: center; 
     padding: 10px;
-    margin: 20px;
 }
 .korean img {
-    height: 200px;
+    max-height: 330px;
+    box-sizing: border-box;
+    width: 250px;
 }
 .chicken img {
-    height: 200px;
+    max-height: 550px;
+    box-sizing: border-box;
+    width: 250px;
+
 }
 .spices img {
-    height: 200px;
+    max-height: 550px;
+    box-sizing: border-box;
+    width: 250px;
 }
