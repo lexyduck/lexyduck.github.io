@@ -34,8 +34,14 @@ a {
     padding: 10px;
 }
 .one {
-    font-weight: bolder;
-    color: black;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.two {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
 }
 .part-one p {
     font-weight: 300;
@@ -51,15 +57,15 @@ a {
 }
 
 .head {
-   margin: 0px auto;
-    width: 90%;
-    max-width: 1200px;
-    gap: 50px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    display: flex;
-    background-color: beige;
-    padding:  50px;
+   display: flex;
+   gap: 50px;
+   padding: 20px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.head img {
+    height: 100%;
 }
 h2 {
     text-align: center; 
