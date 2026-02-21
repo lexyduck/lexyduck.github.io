@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    box-sizing: border-box;
+    max-width: 1290px;
+    color: black;
+}
+body {
+    margin: 0px;
+    font-family: Bebas Neue, sans-serif;
+}
+h2,
+h4 {
+    font-family: Josefin Sans, sans-serif;
+    margin: 0px;
+}
+.single-column {
+    width: 90%;
+    max-width: 1440px;
+    margin: 40px auto;
+}
+.two-column {
+    display: flex;
+    gap: 50px;
+}
+.dark-container {
+    color: black;
+    flex: 1;
+}
+
+.light-container {
+    background-color: blanchedalmond;
+}
+.in-container {
+    background-color: black;
+}
+.rp {
+    order: 2;
+    width: 250px;
+}
+.rp h2 {
+    background-color:  blanchedalmond;
+    margin: 0px;
+    padding: 15px;
+    font-size: 10px;
+}
+.rp ul {
+    background-color: lightgoldenrodyellow;
+    border:  1px solid blanchedalmond;
+    margin: 0px 0px 25px;
+    list-style-type: none;
+    padding: 0px 15px;
+}
+.rp li {
+    padding: 10px 0px;
+    border-bottom: 1px solid  #ffbf00;
+}
+.rp li:last-child {
+    border: 0px;
+}
+.rp a {
+    text-decoration: none;
+    color: black;
+}
