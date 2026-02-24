@@ -12,8 +12,21 @@ img {
 }
 /* Resets Above */
 
+.single-column {
+    width: 80%;
+    max-width: 900px;
+   margin: 0px auto;
+}
+.top {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
 #layout {
     display: flex;
+    margin: 10px auto;
+    align-items: center;
+    text-align: center;
 }
 .image-container {
     width:  100px;
@@ -25,7 +38,7 @@ img {
 }
 
 .image-container-one {
-    width: 200px;
+    width: 450px;
 }
 #featured-image-column .image-container-one img {
     height: 100%;
@@ -33,3 +46,45 @@ img {
     object-fit: cover;
 }
 
+.two-column a {
+    text-decoration: none;
+}
+.btn {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 30px;
+    display: inline-block;
+    color: blue;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #1115;
+    border: 2px solid blue;
+   transition: background-color 0.5s, color 0.5s;
+   display: block;
+}
+.btn-one {
+    text-decoration: none;
+    background-color: darkblue;
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #1115;
+    border: 2px solid darkblue;
+   transition: background-color 0.5s, color 0.5s;
+   display: block;
+}
+.head {
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.part {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.money {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
