@@ -33,7 +33,7 @@ img {
 }
 #two-column h2 {
     font-size: 40px;
-   font-weight: bold;
+    font-weight: bold;
 }
 
 .end {
@@ -50,6 +50,6 @@ img {
     border-radius: 15px;
     box-shadow: 2px 2px 5px #1115;
     border: 2px solid black;
-   transition: background-color 0.5s, color 0.5s;
-   margin: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    margin: 10px;
 }
