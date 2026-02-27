@@ -37,3 +37,21 @@ img {
     height: 100%;
     
 }
+
+.hm-gal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.hm-gal img {
+    flex: 1;
+    height: 250px;
+}
+
+.vm-gal {
+    columns: 3 auto;
+    column-gap: 25px;
+}
+.vm-gal img {
+    margin-bottom: 25px;
+}
