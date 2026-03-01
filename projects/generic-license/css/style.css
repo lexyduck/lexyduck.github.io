@@ -9,9 +9,9 @@
 
 #license {
     width: 700px;
-    border: 2px solid;
+    border: 2px solid black;
     border-radius: 5px;
-    padding: 24px;
+    padding: 2px;
 }
 #left-side {
     display: inline-block;
@@ -24,32 +24,23 @@
 #right-side img {
     width: 100%;
 }
-#id-expiration {
+#id-and-expiration {
     display: inline-block;
 }
-#small-pic {
-    display: inline-block;
-}
-#data-fields {
+#small-pic #data-fields {
     display: inline-block;
 }
 #small-pic-container img {
     width: 50%;
     object-fit: cover;
 }
-#data-left {
-    display: inline-block;
-}
-#data-right {
+#data-left  #data-right{
     display: inline-block;
 }
 #signature {
     text-align: center;
 }
 
-#donor {
-    display: inline-block;
-}
-#real-id {
+#donor  #real-id {
     display: inline-block;
 }
