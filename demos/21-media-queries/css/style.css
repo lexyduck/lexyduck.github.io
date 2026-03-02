@@ -54,14 +54,14 @@ header nav .logo {
 }
 
 /* MEDIA QUERIES */
-@media sceen and ( max-width 800px) {
+@media sceen and ( max-width: 800px) {
     header nav {
         flex-wrap: wrap;   
     }
-    headder nav .logo {
+
+    header nav .logo {
         flex: 100%;
         margin-right: 0px;
         text-align: center;
     }
-   
 }
