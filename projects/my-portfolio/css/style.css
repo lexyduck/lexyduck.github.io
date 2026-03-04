@@ -1,6 +1,7 @@
 /* Resets Below */
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     margin: 0px;
@@ -11,3 +12,21 @@ img {
     object-fit: cover;
 }
 /* Resets Above */
+
+.single-column {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+header {
+    background-color: lightcyan;
+}
+header nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
